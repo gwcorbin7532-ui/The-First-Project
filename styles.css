@@ -8,7 +8,7 @@
 }
 
 h1, h2, h3, h4, h5, h6, span{
-    color: black;
+    color: rgb(218, 243, 216);
     text-align: center;
     line-height: 1.25;
 }
@@ -47,7 +47,7 @@ li {
 }
 
 .text--purple {
-    color: purple;
+    color: gold;
 }
 
 
@@ -59,6 +59,11 @@ section:nth-child(even){
     margin-bottom: 20px;
 }
 
+body {
+ background-image: url(./assets/leafboard.jpg) !important;
+ background-size: 100%;
+ background-repeat: no-repeat;
+
 /*NAVIGATION BAR*/
 
 nav{
@@ -69,7 +74,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+   
 }
 
 .nav__link--list{
@@ -78,13 +83,13 @@ nav{
 
 .nav__link--anchor {
 margin: 0 12px;
-color: #242424;
+color: #f6f7f6;
 text-decoration: none;
 font-weight: 700;
 }
 
 .nav__link--anchor-primary {
-    background-color: #6030b1;
+    background-color: #269f11;
     padding: 8px 20px;
     border-radius: 50px;
     color: white;
@@ -92,12 +97,12 @@ font-weight: 700;
 }
 
 .nav__link--anchor-primary:hover {
-    background-color: #5d3eff;
+    background-color: #36ac2b;
 }
 
 .personal__logo {
     font-size: 24px;
-    color: #6030b1;
+    color: gold;
     margin: 0 12px;
     font-weight: bold;
 
@@ -119,6 +124,7 @@ font-weight: 700;
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
+    color: white;
 
 }
 
@@ -151,7 +157,7 @@ font-weight: 700;
 
 .about-me__link {
     font-size: 20px;
-    color: black;
+    color: rgb(249, 245, 245);
     text-decoration: none;
     padding: 0 16px;
 }
