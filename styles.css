@@ -474,6 +474,10 @@ footer {
 .footer__logo--img {
     width: 70px;
     height: 70px;
+    border-radius: 50%;
+    border-style: groove;
+    border-color: gold;
+    border-width: 2px;
 }
 
 .footer__social--link,
